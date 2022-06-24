@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Factors numbers into primes quick-style"""
 
 from sys import argv, exit
@@ -34,8 +34,6 @@ def factorize(num):
             else:
                 print("{}={}*{}".format(num, num // p, p))
             return
-
-    print("{}={}*{}".format(num, num, 1))
 
 if __name__ == "__main__":
     if len(argv) != 2:
